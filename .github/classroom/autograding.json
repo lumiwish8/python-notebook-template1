@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "문제1 - 기초통계 (40점)",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_assignment.py::TestCalculateStats -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 40
+    },
+    {
+      "name": "문제2 - 베이즈정리 (60점)",
+      "setup": "",
+      "run": "pytest tests/test_assignment.py::TestBayesPosterior -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 60
+    }
+  ]
+}
